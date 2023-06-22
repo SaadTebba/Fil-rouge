@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Sofia Sans Semi Condensed', serif;
+}
+
+/* ================================== Header (Logo - text) ================================== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 60px;
+    margin: 20px;
+}
+
+header h2 {
+    color: #04A7C3;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+#user_image {
+    margin-left: auto;
+    width: 40px;
+}
+
+.signin-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+#logo_container {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.signin-container a {
+    margin: 0 10px 0 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#sign_in_text {
+    color: #04A7C3;
+}
+
+/* ================================== first 100vh ================================== */
+
+#hundredVH {
+    background-image: url("images/nurse.png");
+    background-color: #F2FBFC;
+    background-position: right;
+    background-position: bottom right;
+    background-size: 450px;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.register_button {
+    width: 180px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.register_button:hover,
+.submit_button:hover,
+.edit-button:hover,
+.review_button:hover,
+.discover_button:hover {
+    border: 1px black solid;
+}
+
+.h1reg {
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* ================================== Sign up & Sign in pages ================================== */
+
+.submit_button,
+.review_button,
+.edit-button,
+.discover_button,
+.register_button {
+    background-color: #04A7C3;
+    color: white;
+}
+
+/* ================================== Profile ==================================== */
+
+
+.profile-container {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-left {
+    flex: 0.8;
+}
+
+.profile-left img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px #04A7C3 solid;
+    margin-bottom: 10px;
+}
+
+.edit-button {
+    width: 80%;
+}
+
+.profile-right {
+    flex: 2;
+}
+
+.profile-right p,
+.profile-right ul li {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.dropdown_button {
+    font-size: 20px;
+}
+
+/* ================================== Middle page (main - visitor) ================================== */
+
+h2 {
+    color: #04A7C3;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.card {
+    box-shadow: -4px 6px 25px rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-body p {
+    margin: 0px 0 5px 0;
+}
+
+.discover_button {
+    width: 350px;
+    font-size: 26px;
+}
+
+.discover_container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
+/* ================================== Stars ==================================== */
+
+.star-rating {
+    display: inline-block;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    float: right;
+    color: #ccc;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.star-rating label:before {
+    content: "\2605";
+}
+
+.star-rating input[type="radio"]:checked~label {
+    color: #ffcc00;
+}
+
+/* ================================== Footer ================================== */
+
+footer {
+    background-color: #F2FBFC;
+    font-size: 20px;
+    box-shadow: #ffcc00;
+}
+
+.footer_icons {
+    color: #04A7C3;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* ================================== Dashboard ==================================  */
+
+.sidebar {
+    background-color: #04A7C3;
+    color: #fff;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.content {
+    padding: 20px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.dashboard_options {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.dashboard_option_container {
+    margin: 10px 0px 10px 5px;
+}
+
+#h2_dashboard {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#logo_dashboard {
+    width: 20%;
+}
+
+.active_dashboard_option {
+    background-color: white;
+    color: #04A7C3;
+    border-radius: 50px;
+}
+
+.sidebar {
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.content {
+    min-width: 700px;
+}
+
+
+
+/* ==================================================================== ==================================================================== TESTING ==================================================================== ==================================================================== */
